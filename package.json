@@ -15,6 +15,7 @@
     "imagemin": "^8.0.1",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-pngquant": "^9.0.2",
-    "imagemin-webp": "^7.0.0"
+    "imagemin-webp": "^7.0.0",
+    "remixicon": "^2.5.0"
   }
 }
