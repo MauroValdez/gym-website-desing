@@ -352,10 +352,145 @@
       </div>
     </section>
     <!-- =/pricing = -->
+
+    <!-- =@note calculate = -->
+    <section class="section calculate">
+      <div class="calculate__container container grid">
+        <div class="calculate__content">
+          <div class="section__titles">
+            <h1 class="section__title-border">CALCULATE</h1>
+            <h1 class="section__title">YOUR BMI</h1>
+          </div>
+
+          <p class="calculate__description">
+            The body mass index (BMI) calculator calculates body mass index from your weight and height.
+          </p>
+
+          <form action="" class="calculate__form" id="calculate-form">
+            <div class="calculate__box">
+              <input type="number" placeholder="Height" id="calculate-cm" class="calculate__input">
+              <label for="" class="calculate__label">cm</label>
+            </div>
+            <div class="calculate__box">
+              <input type="number" placeholder="Weight" id="calculate-kg" class="calculate__input">
+              <label for="" class="calculate__label">kg</label>
+            </div>
+
+            <button type="submit" class="button button__flex">
+              Calculate Now <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+
+          <p class="calculate__message" id="calculate-message"></p>
+        </div>
+        
+        <img src="./source/img/webp/calculate-img.webp" alt="calculate" class="calculate__img">
+      </div>
+    </section>
+    <!-- =/calculate = -->
   </main>
   <!-- =/main = -->
 
+  <!-- =@note footer = -->
+  <footer class="footer section" id="footer">
+    <div class="footer__container container grid">
+      <div>
+        <a href="#" class="footer__logo">
+          <img src="./source/img/logo-nav.png" alt="logo footer"> BEROTOT
+        </a>
+        <p class="footer__description">
+          Subscribe for company <br> updates below.
+        </p>
 
+        <form action="" class="footer__form" id="contact-form">
+          <input type="email" name="user-email" placeholder="Your Email" class="footer__input" id="contact-user">
+          <button class="button" type="submit">Subscribe</button>
+        </form>
+        
+        <p class="footer__message" id="contact-message"></p>
+      </div>
+
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">
+            SERVICES
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Flex Muscle</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Cardio Exercise</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Basic Yoga</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Weight Lifting</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            Pricing
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Basic</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Premium</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Diamond</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            COMPANY
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Customers</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Partners</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer__group">
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </ul>
+
+      </div>
+
+      <span class="footer__copy">
+        Copyright GYM Website&copy;. All rights reserved
+      </span>
+      
+    </div>
+  </footer>
+  <!-- =/footer = -->
 
   <script type="module" src="/main.js"></script>
 </body>
