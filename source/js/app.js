@@ -1,4 +1,6 @@
-
+window.addEventListener('scroll', () => {
+  scrollHeader();
+})
 
 document.addEventListener('DOMContentLoaded' , () => {
   showMenu();
@@ -22,4 +24,7 @@ function showMenu() {
     })
   }
 }
-
+function scrollHeader() {
+  const header = document.querySelector('#header');
+  window.scrollY >= 100 ? header.classList.add('bg-header') : header.classList.remove('bg-header')
+}
