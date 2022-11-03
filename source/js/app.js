@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 const calculateForm = document.querySelector("#calculate-form");
 const contactForm = document.querySelector("#contact-form");
 const sections = document.querySelectorAll("section[id]");
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll(".nav__link");
 
 window.addEventListener("scroll", () => {
   scrollHeader();
@@ -38,11 +38,13 @@ function showMenu() {
 }
 
 function linkAction() {
-  const navMenu = document.querySelector('#nav-menu')
+  const navMenu = document.querySelector("#nav-menu");
 
-  navLink.forEach(n => n.addEventListener('click', () => {
-    navMenu.classList.remove('show-menu')
-  }))
+  navLink.forEach((n) =>
+    n.addEventListener("click", () => {
+      navMenu.classList.remove("show-menu");
+    }),
+  );
 }
 
 function scrollHeader() {
@@ -152,7 +154,9 @@ function scrollActive() {
 }
 
 function scrollUp() {
-  const scroll = document.querySelector('#scroll-up');
+  const scroll = document.querySelector("#scroll-up");
 
-  window.scrollY >= 350 ? scroll.classList.add('show-scroll') : scroll.classList.remove('show-scroll')
+  window.scrollY >= 350
+    ? scroll.classList.add("show-scroll")
+    : scroll.classList.remove("show-scroll");
 }
