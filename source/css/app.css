@@ -895,7 +895,7 @@ transition: transform .3s;
   }
 }
 @media screen and (min-width: 1150px) {
-  .home__Data {
+  .home__data {
     padding-top: 3rem;
   }
   .home__images {
